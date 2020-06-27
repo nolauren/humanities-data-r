@@ -79,11 +79,11 @@ we will focus on the application of using R for network analysis. Materials for 
 to other application domains (for example, working with text, images, and spatial data) are
 linked to below. With this in mind, the workshop will (tentatively) be organized as follows:
 
-- **(09:00-09:15)** Introductions and Setup
-- **(09:15-10:00)** Data Visualization in R
-- **(10:00-10:10)** break
+- **(09:00-09:10)** Introductions and Setup
+- **(09:10-10:00)** Data Visualization in R
+- **(10:00-10:10)** *break*
 - **(10:10-11:00)** Network Analysis in R
-- **(11:00-11:10)** break
+- **(11:00-11:10)** *break*
 - **(11:10-12:00)** Data Creation and Discussion
 
 In this first two sessions, participants will work with pre-constructed datasets. The final 
