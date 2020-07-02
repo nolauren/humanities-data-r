@@ -9,11 +9,12 @@ library(ggplot2)             # plotting library
 library(dplyr)               # apply database-like commands
 library(forcats)             # manipulate categorical variables
 library(lubridate)           # work with dates and times
-library(smodels)             # collection of custom functions
 library(ggrepel)             # fancy graph labels
 library(cleanNLP)            # process free-form text
 library(stringi)             # manipulate strings
 library(magrittr)            # fancy pipes (e.g., %>%)
+library(igraph)              # for networks
+source("src/funs.R")         # custom helper functions
 
 theme_set(theme_minimal())   # set a minimal plot as the default
 ```

@@ -12,8 +12,6 @@ library(ggplot2)             # plotting library
 library(dplyr)               # apply database-like commands
 library(forcats)             # manipulate categorical variables
 library(lubridate)           # work with dates and times
-library(ggmaptile)           # draw maptiles
-library(smodels)             # collection of custom functions
 
 theme_set(theme_minimal())    # set a minimal plot as the default
 ```
@@ -123,8 +121,7 @@ photos %>%                                    # built a plot from the photos dat
         y = "Photographer",
         title = "Number of Digitzed Photographs Taken by FSA-OWI Photographers",
         caption = "Source: [photogrammar.org]"
-     ) +
-     theme_sm()                                # minimize ink for printing
+     )
 ```
 
 ### Scatter Plots
@@ -273,23 +270,8 @@ photos %>%                                                # built a plot from th
 ```
 
 Because Vachon did not take photos everywhere, it's a bit harder to see exactly where all
-the points would line up on a map. We can adjust this by adding a stat_maptiles layer to
-include a map on the plot:
-
-```{r}
-photos %>%                                                # built a plot from the photos data
-  filter(between(lon, -150, 0), between(lat, 24,50)) %>%  # restrict the longitude and latitude
-  filter(photographer == "John Vachon") %>%               # only take a single photographer
-  ggplot(aes(lon, lat)) +                                 # plot with 'lon' on the x-axis and 'lat' on y-axis
-    stat_maptiles(alpha = 0.1, quiet = TRUE) +            # include a map layer
-    geom_count(                                           # what kind of plot? a count plot!
-      color = "olivedrab",                                # color the points in a dark green color
-      alpha = 0.2,                                        # make them transparent
-      show.legend = FALSE                                 # and don't show a legend (to save room)
-    ) +
-    scale_size_area(max_size = 20) +                      # fix the scales to be proportional to area
-    theme_void()                                          # remove all the cluter to focus on the data
-```
+the points would line up on a map. We will see a way of fixing this in a following set of
+notes.
 
 ### On Your Own
 

@@ -34,60 +34,78 @@ involved.
 
 ## Setup
 
-In order to minimize setup issues during the remote workshop, we will be using 
+In order to minimize setup issues during the remote workshop, we will be using
 a hosted version of the R programming language called [RStudio Cloud](https://rstudio.cloud).
-This service runs R in the browser and requires no local setup. All that is needed 
+This service runs R in the browser and requires no local setup. All that is needed
 is to create a free account using the instructions below. The service can be used
 for 15 hours per month for free, after which additional computing time can be
 purchased accorinding to several different plans. Alternatively, the 100% free and
 open-source desktop version of R and RStudio may be used. It provides the exact same
 functionality, but must be installed locally. Instructions for installing this version
-are also provided below. We are happy to offer support for the Desktop installation process 
+are also provided below. We are happy to offer support for the Desktop installation process
 asychronously before and after the workshop, but may not be able to directly help with
 local issues during the workshop.
 
-### RStudio RCloud (recommended for the workshop itself)
+### RStudio RCloud (for the workshop itself)
 
-In order to setup RStudio RCloud, click on the link below to open a new window. You 
-will be prompted to create an account.
+If you are participating in the workshop, you should have received a link invitation to
+join the project workspace. Click on the link to open the sign up page.
 
-- [Course Invitation]()
+In order to setup RStudio RCloud, click on the link below to open a new window. You
+will be prompted to create an account. You should be welcomed by a page that looks like
+this:
 
-Once you are setup, you should see a screen similar to the image below.
+![](img/image001.png)
 
-!()[]
+Click on the sign-up button and create an account.
 
-And that's it. Just be ready to log back into RStudio with your email and password on
-the day of the workshop.
+![](img/image002.png)
+
+Pick a username:
+
+![](img/image003.png)
+
+And join the UWM-humanities-data-r workspace by clicking on the 'Join' button:
+
+![](img/image004.png)
+
+This should bring you to the following page, at which point you are finished:
+
+![](img/image005.png)
+
+You should get an email asking you to confirm your email address, which you should make sure
+to do within the next 48 hours. And that's it! Just be ready to log back into RStudio with
+your email and password on the day of the workshop. If you run into issues, please contact
+the workshop leaders ahead of time and we will be happy to help.
 
 ### RStudio Desktop (recommended for future work)
 
 In order to install the course materials locally on your computer, you will need to
 install three components. Links for this are given below; if you are not familiar with
-installing programming components on your local machine, we suggest waiting until 
+installing programming components on your local machine, we suggest waiting until
 after the workshop to follow these steps.
 
-- [the R Programming language]()
-- [RStudio]()
-- [course notebooks and datasets]()
+- [R Programming language](https://www.r-project.org/)
+- [RStudio](https://rstudio.com/products/rstudio/download/#download)
+- course notebooks and datasets: click the green "Clone" button below and unzip the file
 
 ## Schedule
 
 This workshop will focus on giving an overview of how R can be used to perform a variety
-of visualization tasks relevant in the Humanities. Due to the short duration of the workshop,
-we will focus on the application of using R for network analysis. Materials for extending this
-to other application domains (for example, working with text, images, and spatial data) are
-linked to below. With this in mind, the workshop will (tentatively) be organized as follows:
+of data analysis tasks relevant in the Humanities. Due to the short duration of the workshop,
+we will focus on the showcasing the possibilities or using R. With this in mind, the
+workshop will (tentatively) be organized as follows:
 
-- **(09:00-09:10)** Introductions and Setup
-- **(09:10-10:00)** Data Visualization in R
+- **(09:00-09:10)** Introductions and Setup (Notebook01)
+- **(09:10-10:00)** Data Visualization (Notebook02)
 - **(10:00-10:10)** *break*
-- **(10:10-11:00)** Network Analysis in R
-- **(11:00-11:10)** *break*
-- **(11:10-12:00)** Data Creation and Discussion
+- **(10:10-10:40)** Textual Analysis (Notebook03)
+- **(10:40-11:20)** Network Analysis (Notebook04)
+- **(11:20-11:30)** *break*
+- **(11:30-12:00)** Spatial Analysis and Wrap-up (Notebook05)
 
-In this first two sessions, participants will work with pre-constructed datasets. The final 
-sesion will focus on how to organize and load data created by the participants. 
+We will be available after the workshop to assist participants looking to see how to extend
+the materials to their own datasets.
 
 ## References
 
@@ -101,6 +119,3 @@ freely available online.
 - Data Carpentry. "R for Social Scientists" [link](https://datacarpentry.org/r-socialsci/)
 - Arnold, Taylor. *Exploratory Data Science*. **work in progress**
 [link](https://statsmaths.github.io/eds_book/index.html)
-
-
-

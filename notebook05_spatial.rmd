@@ -7,10 +7,9 @@ author: "Taylor Arnold and Lauren Tilton"
 library(readr)               # read and write in the datasets
 library(ggplot2)             # plotting library
 library(dplyr)               # apply database-like commands
-library(smodels)             # collection of custom functions
-library(ggsflabel)           # fancy graph labels on a map
 library(USAboundaries)       # contains U.S. State geographic data
 library(sf)                  # spatial data
+source("src/funs.R")         # custom helper functions
 
 theme_set(theme_minimal())   # set a minimal plot as the default
 ```
@@ -163,7 +162,7 @@ ggplot() +                                            # start the plot
     show.legend = FALSE,                              # do not cluter with a legend
     data = photos_proj                                # use photos_proj data (the points)
   ) +
-  geom_sf_text_repel(
+  geom_sf_text(
     aes(label = place), size = 3, data = photos_proj  # add labels
   ) +
   scale_size_area(max_size = 20)                      # set area proportional to size
@@ -190,7 +189,7 @@ ggplot() +                                            # start the plot
     show.legend = FALSE,                              # do not cluter with a legend
     data = photos_proj                                # use photos_proj data (the points)
   ) +
-  geom_sf_text_repel(
+  geom_sf_text(
     aes(label = place), size = 3, data = photos_proj  # add labels
   ) +
   scale_size_area(max_size = 20)                      # set area proportional to size

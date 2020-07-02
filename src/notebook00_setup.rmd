@@ -16,20 +16,8 @@ install.packages(
     "readr", "ggplot2", "stringi", "forcats", "ggrepel", "tidyr",
     "Hmisc", "cleanNLP", "devtools", "ggimg", "lubridate", "cleanNLP",
     "igraph", "USAboundaries", "sf"
-
   ),
-  type="binary",
   repos = "https://cran.rstudio.com/",
-  quiet = TRUE
-)
-
-devtools::install_github(
-  "statsmaths/smodels", force = TRUE, dependencies = FALSE, quiet = TRUE
-)
-devtools::install_github(
-  "statsmaths/ggmaptile", force = TRUE, dependencies = FALSE, quiet = TRUE
-)
-devtools::install_github(
-  "yutannihilation/ggsflabel", force = TRUE, dependencies = FALSE, quiet = TRUE
+  quiet = FALSE
 )
 ```
