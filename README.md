@@ -55,23 +55,33 @@ In order to setup RStudio RCloud, click on the link below to open a new window. 
 will be prompted to create an account. You should be welcomed by a page that looks like
 this:
 
-![](img/image001.png)
+<p align="center" style="border:3px solid black !important">
+  <img src="img/image001.png" width="80%" alt="RStudio Cloud Sign-up" />
+</p>
 
 Click on the sign-up button and create an account.
 
-![](img/image002.png)
+<p align="center" style="border:3px solid black !important">
+  <img src="img/image002.png" width="80%" alt="RStudio Cloud Sign-up" />
+</p>
 
 Pick a username:
 
-![](img/image003.png)
+<p align="center" style="border:3px solid black !important">
+  <img src="img/image003.png" width="80%" alt="RStudio Cloud Sign-up" />
+</p>
 
 And join the UWM-humanities-data-r workspace by clicking on the 'Join' button:
 
-![](img/image004.png)
+<p align="center" style="border:3px solid black !important">
+  <img src="img/image004.png" width="80%" alt="RStudio Cloud Sign-up" />
+</p>
 
 This should bring you to the following page, at which point you are finished:
 
-![](img/image005.png)
+<p align="center" style="border:3px solid black !important">
+  <img src="img/image005.png" width="80%" alt="RStudio Cloud Sign-up" />
+</p>
 
 You should get an email asking you to confirm your email address, which you should make sure
 to do within the next 48 hours. And that's it! Just be ready to log back into RStudio with
