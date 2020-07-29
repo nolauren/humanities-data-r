@@ -106,11 +106,11 @@ of data analysis tasks relevant in the Humanities. Due to the short duration of 
 we will focus on the showcasing the possibilities or using R. With this in mind, the
 workshop will (tentatively) be organized as follows:
 
-- **(09:00-09:10)** Introductions and Setup (Notebook01)
-- **(09:10-10:00)** Data Visualization (Notebook02)
+- **(09:00-09:30)** Introductions and Setup (Notebook01)
+- **(09:30-10:00)** Data Visualization (Notebook02)
 - **(10:00-10:10)** *break*
-- **(10:10-10:40)** Textual Analysis (Notebook03)
-- **(10:40-11:20)** Network Analysis (Notebook04)
+- **(10:10-10:45)** Textual Analysis (Notebook03)
+- **(10:45-11:20)** Network Analysis (Notebook04)
 - **(11:20-11:30)** *break*
 - **(11:30-12:00)** Spatial Analysis and Wrap-up (Notebook05)
 
