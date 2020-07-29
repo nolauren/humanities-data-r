@@ -48,7 +48,7 @@ local issues during the workshop.
 
 ### RStudio RCloud (for the workshop itself)
 
-If you are participating in the workshop, you should have received a link invitation to
+If you are participating in the workshop, you use the [workshop link](https://rstudio.cloud/spaces/77636/join?access_code=gRD8AgR8RNH%2BdCqd5556nrzvrblZe%2BMja3iyKQOQ) to
 join the project workspace. Click on the link to open the sign up page.
 
 In order to setup RStudio RCloud, click on the link below to open a new window. You
