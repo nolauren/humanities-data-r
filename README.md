@@ -6,8 +6,8 @@
 
 This repository contains notes, code, and data for our Humanities Data in R
 workshop, held virtually on 29 July from 9h-12h Central. A Zoom invitation for
-the live workshop will be sent out as a seperate email. Feel free to use/share/adopt
-these notes for other courses.
+the live workshop will be sent out as a seperate email. Slides are available [here](https://docs.google.com/presentation/d/1gUyxWQW5bQJrqJJdJwT7VrhhaHynur7ljcDh8DfB5fg/edit?usp=sharing)
+Feel free to use/share/adopt these notes for other courses.
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a> This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
 
