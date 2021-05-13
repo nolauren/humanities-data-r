@@ -1,4 +1,4 @@
-# Humanities Data in R Workshop – University of Wisconsin-Milwaukee Libraries
+# Humanities Data in R Workshop 
 
 [Taylor Arnold](https://statsmaths.github.io), Assistant Professor of Statistics, [@statsmaths](https://twitter.com/statsmaths)
 
@@ -46,10 +46,7 @@ are also provided below. We are happy to offer support for the Desktop installat
 asychronously before and after the workshop, but may not be able to directly help with
 local issues during the workshop.
 
-### RStudio RCloud (for the workshop itself)
-
-If you are participating in the workshop, you use the [workshop link](https://rstudio.cloud/spaces/77636/join?access_code=gRD8AgR8RNH%2BdCqd5556nrzvrblZe%2BMja3iyKQOQ) to
-join the project workspace. Click on the link to open the sign up page.
+### RStudio RCloud  
 
 In order to setup RStudio RCloud, click on the link below to open a new window. You
 will be prompted to create an account. You should be welcomed by a page that looks like
@@ -71,22 +68,14 @@ Pick a username:
   <img src="img/image003.png" width="80%" alt="RStudio Cloud Sign-up" />
 </p>
 
-And join the UWM-humanities-data-r workspace by clicking on the 'Join' button:
-
-<p align="center" style="border:3px solid black !important">
-  <img src="img/image004.png" width="80%" alt="RStudio Cloud Sign-up" />
-</p>
-
-This should bring you to the following page, at which point you are finished:
-
-<p align="center" style="border:3px solid black !important">
-  <img src="img/image005.png" width="80%" alt="RStudio Cloud Sign-up" />
-</p>
-
+ 
+ 
 You should get an email asking you to confirm your email address, which you should make sure
 to do within the next 48 hours. And that's it! Just be ready to log back into RStudio with
 your email and password on the day of the workshop. If you run into issues, please contact
 the workshop leaders ahead of time and we will be happy to help.
+
+You can then use this environment if you want to work on the cloud.
 
 ### RStudio Desktop (recommended for future work)
 
@@ -99,24 +88,7 @@ after the workshop to follow these steps.
 - [RStudio](https://rstudio.com/products/rstudio/download/#download)
 - course notebooks and datasets: click the green "Clone" button below and unzip the file
 
-## Schedule
-
-This workshop will focus on giving an overview of how R can be used to perform a variety
-of data analysis tasks relevant in the Humanities. Due to the short duration of the workshop,
-we will focus on the showcasing the possibilities or using R. With this in mind, the
-workshop will (tentatively) be organized as follows:
-
-- **(09:00-09:30)** Introductions and Setup (Notebook01)
-- **(09:30-10:00)** Data Visualization (Notebook02)
-- **(10:00-10:10)** *break*
-- **(10:10-10:45)** Textual Analysis (Notebook03)
-- **(10:45-11:20)** Network Analysis (Notebook04)
-- **(11:20-11:30)** *break*
-- **(11:30-12:00)** Spatial Analysis and Wrap-up (Notebook05)
-
-We will be available after the workshop to assist participants looking to see how to extend
-the materials to their own datasets.
-
+ 
 ## References
 
 Below are several links to follow-up on the topic covered in the workshop. All of these are
