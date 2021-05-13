@@ -101,3 +101,7 @@ freely available online.
 - Data Carpentry. "R for Social Scientists" [link](https://datacarpentry.org/r-socialsci/)
 - Arnold, Taylor. *Exploratory Data Science*. **work in progress**
 [link](https://statsmaths.github.io/eds_book/index.html)
+
+## Overview Notes from Workshops
+
+[3rd Lagos Summer School in DH](http://bit.ly/lagos-r)
